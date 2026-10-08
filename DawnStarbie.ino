@@ -1,17 +1,3 @@
-/*
-  Starbie: a tiny motion-controlled digital pet
-
-  This is intentionally one file. Open this .ino file in Arduino IDE, edit
-  the BEGINNER SETTINGS section, and upload it to a Seeed XIAO ESP32-C3.
-
-  Install these libraries with Sketch > Include Library > Manage Libraries:
-    - Adafruit GFX Library
-    - Adafruit SSD1306
-    - Adafruit MPU6050
-    - DHT sensor library
-  Arduino IDE will offer to install their dependencies too. Click Install All.
-*/
-
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -20,38 +6,25 @@
 #include <Preferences.h>
 #include <math.h>
 
-// =========================== BEGINNER SETTINGS ===========================
-// Everything most builders will want to customize is in this one section.
-
-// --- Your board's pins ----------------------------------------------------
-// These are ESP32-C3 GPIO numbers, with the XIAO pin labels beside them.
+// Board pins
 const int I2C_SDA_PIN = 6;       // XIAO D4: OLED + MPU6050 SDA
 const int I2C_SCL_PIN = 7;       // XIAO D5: OLED + MPU6050 SCL
 const int DHT_PIN = 3;           // XIAO D1: DHT11 data
 const int BUTTON_ONE_PIN = 4;    // XIAO D2: opens/confirms the radial menu
 const int BUTTON_TWO_PIN = 5;    // XIAO D3: shows/hides stats
 
-// Set this to false if your submission does not have a DHT11.
 const bool USE_DHT11 = true;
 
-// Most parts use these addresses. Only change them if an I2C scanner says
-// your part is different (common OLED alternative: 0x3D).
 const uint8_t OLED_ADDRESS = 0x3C;
 const uint8_t MPU6050_ADDRESS = 0x68;
 
-// --- Starting stats -------------------------------------------------------
-// Stats are 0 to 100. They only change when you select an action or shake
-// Starbie; nothing slowly drains while it sits on your desk.
 const int STARTING_JOY = 70;
 const int STARTING_ENERGY = 75;
 const int STARTING_FULLNESS = 65;
 
-// Set true, upload once, then set it back to false if you want a fresh pet.
-const bool RESET_SAVED_PET_ON_BOOT = false;
+const bool RESET_SAVED_PET_ON_BOOT = true;
 
-// --- Radial menu ----------------------------------------------------------
-// These four actions appear at TOP, RIGHT, BOTTOM, then LEFT in the menu.
-// The last word controls the matching little visual reaction.
+//Radial menu
 enum PetReaction {
   NAP_REACTION,
   JUMP_REACTION,
@@ -75,47 +48,33 @@ const MenuItem MENU_ITEMS[] = {
 };
 const int MENU_ITEM_COUNT = sizeof(MENU_ITEMS) / sizeof(MENU_ITEMS[0]);
 
-// --- Movement feel --------------------------------------------------------
-// Bigger MENU_TILT_LIMIT makes the menu ball move less.
+//Movement feel
 const float MENU_TILT_LIMIT = 6.0f;
 
-// MPU6050 orientation: change these settings instead of rewiring your board.
-// 1. If the sensor is turned 90 degrees, set SWAP_MPU_AXES to true.
-// 2. If a direction feels backwards, change that direction from 1.0f to -1.0f.
-const bool SWAP_MPU_AXES = false;
+const bool SWAP_MPU_AXES = true;
 const float MENU_X_DIRECTION = 1.0f;
 const float MENU_Y_DIRECTION = -1.0f;
 
-// A small dead zone makes the ball rest in the center until the board is tilted.
 const float MENU_CENTER_DEADZONE = 0.8f;
 const float SHAKE_THRESHOLD = 7.0f;
 
-// Shake is the only movement that has an effect outside the radial menu.
 const int SHAKE_JOY_CHANGE = 5;
 const int SHAKE_ENERGY_CHANGE = -2;
 const int SHAKE_FULLNESS_CHANGE = -1;
 
-// --- Your pet's bitmap and animation -------------------------------------
-// This is a simplified 32 by 32, one-bit version of the supplied character.
-// You can replace it with your own art later; keep these size values matched
-// to the sprite array you paste in.
+//Pet bitmap and animation
 const int PET_SPRITE_WIDTH = 32;
 const int PET_SPRITE_HEIGHT = 32;
 
-// The pet wanders unless it is asleep. A non-nap action does a tiny shake,
-// then a jump, except PLAY which runs two fast laps.
 const uint16_t PET_WALK_PIXEL_MS = 70;
 const uint16_t PET_PRE_JUMP_MS = 230;
 const uint16_t PET_JUMP_MS = 430;
 const int PET_JUMP_HEIGHT = 16;
-const uint32_t NAP_DURATION_MS = 48000;  // 48 seconds: four times the old nap.
+const uint32_t NAP_DURATION_MS = 48000;  
 const uint16_t HEARTS_DURATION_MS = 1600;
 const uint16_t PLAY_LAP_MS = 800;
 const uint8_t PLAY_LAP_COUNT = 2;
 
-// Each byte stores eight pixels, left to right. This sparse outline keeps the
-// supplied creature readable on a tiny, one-bit OLED: head, eye, legs, tail,
-// and a small flower-like ear accent all stay separate instead of becoming a blob.
 const uint8_t PROGMEM PET_SPRITE[] = {
   0x00, 0x00, 0x00, 0x00,
   0x00, 0x00, 0x00, 0x00,
@@ -151,8 +110,6 @@ const uint8_t PROGMEM PET_SPRITE[] = {
   0x00, 0x00, 0x00, 0x00,
 };
 // ===========================================================================
-// You can read below without needing to understand every line. The rest of
-// the sketch handles buttons, sensors, drawing, and saving automatically.
 
 const int SCREEN_WIDTH = 128;
 const int SCREEN_HEIGHT = 64;
@@ -645,5 +602,5 @@ void loop() {
   }
 
   drawCurrentView();
-  delay(16);  // Smooth display updates without making the code complicated.
+  delay(16);  
 }

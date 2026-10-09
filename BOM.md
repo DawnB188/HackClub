@@ -14,11 +14,10 @@
 | --- | --- | --- | --- | --- | --- |
 | [Seeed Studio XIAO ESP32-C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html?utm_source=chatgpt.com) | Main microcontroller that runs Starbie's firmware | 1 | $4.99 | $4.99 | [Seeed Studio](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html?utm_source=chatgpt.com) |
 | [0.96-inch OLED Display Module, SSD1306, 128×64, 4-pin I²C](https://www.alibaba.com/product-detail/0-96-inch-OLED-LCD-Screen_1601577992701.html?spm=a2700.prosearch.normal_offer.d_title.7c4367af6YF8qo&selectedCarrierCode=SEMI_MANAGED_PREMIUM%40%40PREMIUM&priceId=6fe34e42acb345bea459cfbb95ec5d32) | Displays Starbie's face and animations | 1 | $1.33 | $1.33 | [Shenzhen Tuorui Electronic Technology Co., Ltd.](https://www.alibaba.com/product-detail/0-96-inch-OLED-LCD-Screen_1601577992701.html?spm=a2700.prosearch.normal_offer.d_title.7c4367af6YF8qo&selectedCarrierCode=SEMI_MANAGED_PREMIUM%40%40PREMIUM&priceId=6fe34e42acb345bea459cfbb95ec5d32) |
-| [ASAIR DHT11 Temperature and Humidity Sensor Module](https://www.aosong.com/en/Products/info.aspx?itemid=2257&lcid=151) | Temperature and Humidity Sensor Module | 1 | $0.58 | $0.58 | [ASAIR](https://www.aosong.com/en/Products/info.aspx?itemid=2257&lcid=151) |
 | [0.100" (2.54 mm) Breakaway Male Header: 1×40-Pin, Straight, Black](https://www.pololu.com/product/965) | Connector for J1 & J2 | 1 | $0.95 | $0.95 | [Pololu](https://www.pololu.com/product/965) |
 | [MX Cherry Mechanical Keyboard with Black/Red/Blue Axis Genuine Switches](https://www.alibaba.com/product-detail/MX-Cherry-Mechanical-Keyboard-with-Black_1601730062197.html?spm=a2700.prosearch.normal_offer.d_title.2a1067afQfDiWz&priceId=6d38e1e9d6a240da925e0cf7fadab675) | Buttons for the Starbie project | 2 | $0.15 | $0.30 | [Shenzhen Lixiang Electronic Components Co., Ltd.](https://www.alibaba.com/product-detail/MX-Cherry-Mechanical-Keyboard-with-Black_1601730062197.html?spm=a2700.prosearch.normal_offer.d_title.2a1067afQfDiWz&priceId=6d38e1e9d6a240da925e0cf7fadab675) |
-| **Parts subtotal** | — | — | — | **$8.15** | — |
+| **Parts subtotal** | — | — | — | **$7.57** | — |
 | **Tax & shipping** | — | — | — | **$20.90** | — |
-| **Total** | — | — | — | **$29.05** | — |
+| **Total** | — | — | — | **$28.47** | — |
 
-$0.95 left of the tier's funding.
+$1.53 left of the tier's funding.

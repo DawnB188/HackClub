@@ -19,7 +19,7 @@
 | [10PCS/lot Single Bus Digital Temperature and Humidity Sensor DHT11 Module Electronic Bricks KY-015](https://www.aliexpress.us/item/3256809040855978.html?spm=a2g0o.cart.0.0.625b38daqFVVB4&mp=1&pdp_npi=6%40dis%21USD%21USD+5.77%21USD+5.63%21%21USD+5.63%21%21%21%402103128817915165956923028e0f46%2112000048385025197%21ct%21US%213913169718%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D&gatewayAdapt=glo2usa) | Temperature and Humidity Sensor | 1 | $5.63 | $5.63 | [Liancheng Electronics (Shenzhen) Co.](https://www.aliexpress.us/item/3256809040855978.html?spm=a2g0o.cart.0.0.625b38daqFVVB4&mp=1&pdp_npi=6%40dis%21USD%21USD+5.77%21USD+5.63%21%21USD+5.63%21%21%21%402103128817915165956923028e0f46%2112000048385025197%21ct%21US%213913169718%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D&gatewayAdapt=glo2usa) |
 | [Javino 5Pcs 1x40 Pin Connector Header Strip Male Female Header Single Row 40 Pin 2.54mm Pin Connector Strip Round  Needl](https://www.aliexpress.us/item/3256810450538744.html?spm=a2g0o.cart.0.0.625b38daqFVVB4&mp=1&pdp_npi=6%40dis%21USD%21USD+6.83%21USD+3.42%21%21USD+3.42%21%21%21%402103128817915165956923028e0f46%2112000058050361321%21ct%21US%213913169718%21%211%210%21&gatewayAdapt=glo2usa) | Connector for J1 & J2 | 1 | $3.42 | $3.42 | [Javino Tec Store](https://www.aliexpress.us/item/3256810450538744.html?spm=a2g0o.cart.0.0.625b38daqFVVB4&mp=1&pdp_npi=6%40dis%21USD%21USD+6.83%21USD+3.42%21%21USD+3.42%21%21%21%402103128817915165956923028e0f46%2112000058050361321%21ct%21US%213913169718%21%211%210%21&gatewayAdapt=glo2usa) |
 | **Parts subtotal** | — | — | — | **$22.91** | — |
-| **Tax & shipping** | — | — | — | **$1.24** | — |
-| **Total** | — | — | — | **$24.15** | — |
+| **Tax & shipping** | — | — | — | **$1.26** | — |
+| **Total** | — | — | — | **$24.17** | — |
 
-$5.85 left of the tier's funding.
+$5.83 left of the tier's funding.

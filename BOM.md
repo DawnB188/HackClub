@@ -17,7 +17,7 @@
 | [0.100" (2.54 mm) Breakaway Male Header: 1×40-Pin, Straight, Black](https://www.pololu.com/product/965) | Connector for J1 & J2 | 1 | $0.95 | $0.95 | [Pololu](https://www.pololu.com/product/965) |
 | [MX Cherry Mechanical Keyboard with Black/Red/Blue Axis Genuine Switches](https://www.alibaba.com/product-detail/MX-Cherry-Mechanical-Keyboard-with-Black_1601730062197.html?spm=a2700.prosearch.normal_offer.d_title.2a1067afQfDiWz&priceId=6d38e1e9d6a240da925e0cf7fadab675) | Buttons for the Starbie project | 2 | $0.15 | $0.30 | [Shenzhen Lixiang Electronic Components Co., Ltd.](https://www.alibaba.com/product-detail/MX-Cherry-Mechanical-Keyboard-with-Black_1601730062197.html?spm=a2700.prosearch.normal_offer.d_title.2a1067afQfDiWz&priceId=6d38e1e9d6a240da925e0cf7fadab675) |
 | **Parts subtotal** | — | — | — | **$7.57** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$7.57** | — |
+| **Tax & shipping** | — | — | — | **$25.54** | — |
+| **Total** | — | — | — | **$33.11** | — |
 
-$22.43 left of the tier's funding.
+**$3.11 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.

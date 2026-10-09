@@ -18,7 +18,7 @@
 | [MPU6050 6DOF Module Three-Axis Acceleration Gyroscope ICs](https://www.alibaba.com/product-detail/MPU6050-6DOF-Module-Three-Axis-Acceleration_1601377294604.html?utm_source=chatgpt.com) | Gyroscope for acceleration | 1 | $1.60 | $1.60 | [Shenzhen Huaxia Forest Technology Co., Ltd.](https://www.alibaba.com/product-detail/MPU6050-6DOF-Module-Three-Axis-Acceleration_1601377294604.html?utm_source=chatgpt.com) |
 | [Temperature and humidity sensor DHT11 module Electronic Building Blocks KY-015](https://www.alibaba.com/product-detail/Temperature-and-humidity-sensor-DHT11-module_1601216717646.html) | Temperature and Humidity Sensor | 2 | $0.32 | $0.64 | [Shenzhen Junbaoxiang Technology Co., Ltd.](https://www.alibaba.com/product-detail/Temperature-and-humidity-sensor-DHT11-module_1601216717646.html) |
 | **Parts subtotal** | — | — | — | **$8.86** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$8.86** | — |
+| **Tax & shipping** | — | — | — | **$19.49** | — |
+| **Total** | — | — | — | **$28.35** | — |
 
-$21.14 left of the tier's funding.
+$1.65 left of the tier's funding.

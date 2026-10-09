@@ -16,7 +16,7 @@
 | [0.96-inch OLED Display Module, SSD1306, 128×64, 4-pin I²C](https://www.alibaba.com/product-detail/0-96-inch-OLED-LCD-Screen_1601577992701.html?spm=a2700.prosearch.normal_offer.d_title.7c4367af6YF8qo&selectedCarrierCode=SEMI_MANAGED_PREMIUM%40%40PREMIUM&priceId=6fe34e42acb345bea459cfbb95ec5d32) | Displays Starbie's face and animations | 1 | $1.33 | $1.33 | [Shenzhen Tuorui Electronic Technology Co., Ltd.](https://www.alibaba.com/product-detail/0-96-inch-OLED-LCD-Screen_1601577992701.html?spm=a2700.prosearch.normal_offer.d_title.7c4367af6YF8qo&selectedCarrierCode=SEMI_MANAGED_PREMIUM%40%40PREMIUM&priceId=6fe34e42acb345bea459cfbb95ec5d32) |
 | [MX Cherry Mechanical Keyboard with Black/Red/Blue Axis Genuine Switches](https://www.alibaba.com/product-detail/MX-Cherry-Mechanical-Keyboard-with-Black_1601730062197.html?spm=a2700.prosearch.normal_offer.d_title.2a1067afQfDiWz&priceId=6d38e1e9d6a240da925e0cf7fadab675) | Buttons for the Starbie project | 2 | $0.15 | $0.30 | [Shenzhen Lixiang Electronic Components Co., Ltd.](https://www.alibaba.com/product-detail/MX-Cherry-Mechanical-Keyboard-with-Black_1601730062197.html?spm=a2700.prosearch.normal_offer.d_title.2a1067afQfDiWz&priceId=6d38e1e9d6a240da925e0cf7fadab675) |
 | **Parts subtotal** | — | — | — | **$6.62** | — |
-| **Tax & shipping** | — | — | — | **$25.54** | — |
-| **Total** | — | — | — | **$32.16** | — |
+| **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$6.62** | — |
 
-**$2.16 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$23.38 left of the tier's funding.
